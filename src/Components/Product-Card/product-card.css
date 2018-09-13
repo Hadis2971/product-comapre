@@ -1,0 +1,85 @@
+.product-card{
+    position: relative;
+    width: 23%;
+    display: inline-block;
+    border: 0.05em solid #ccc;
+    border-radius: 0.5em;
+    min-height: 27em;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #FFF;
+}
+
+.btn-style{
+    position: relative;
+    z-index: 2;
+    width: 7em;
+    border: 0.03em solid #FFF;
+    padding: 0.5em;
+    font-size: 1.3em;
+    background-color: transparent;
+    color: #FFF;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    display: none;
+    cursor: pointer;
+    transition: all 0.25s linear;
+}
+
+.btn-style:hover{
+    background-color: #FFF;
+    color: #48cfad;
+}
+
+.btn-style:focus{
+    outline: none;
+}
+
+.product-card:hover{
+    box-shadow: 1px 5px 17px #b3b3b3;
+}
+
+.product-card:hover .btn-style{
+    -webkit-animation-name: spaceInUp;
+    -webkit-animation-duration: 0.2s;
+     animation-name: spaceInUp;
+     animation-duration: 0.2s;
+     display: inline;
+}
+
+@-webkit-keyframes spaceInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-transform: scale(.2) translate(0%, -200%);
+              transform: scale(.2) translate(0%, -200%);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-transform: scale(1) translate(0%, 0%);
+              transform: scale(1) translate(0%, 0%);
+    }
+  }
+  @keyframes spaceInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-transform: scale(.2) translate(0%, -200%);
+              transform: scale(.2) translate(0%, -200%);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-transform: scale(1) translate(0%, 0%);
+              transform: scale(1) translate(0%, 0%);
+    }
+  }

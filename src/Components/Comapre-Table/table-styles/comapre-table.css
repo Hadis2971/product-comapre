@@ -1,0 +1,38 @@
+#compare-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3%;
+}
+
+#compare-table > th, td{
+    border-bottom: 0.1em solid #eee;
+    padding: 2.7%;
+    background-color: #FFF;
+    color: #404040;
+    width: 20%;
+    text-align: center;
+    color: #404040;
+    font-size: 110%;
+}
+
+#head-row{
+    background-color: #FFF;
+    border-bottom: 0.2em solid #eee;
+    color: #404040;
+    font-size: 125%;
+    font-weight: 300;
+}
+
+#head-row > td{
+    border-bottom: none;
+    padding: 4.5%;
+}
+
+.bg-transparent{
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 130%;
+    text-align: left;
+    color: #262626;
+    border-bottom-color: #bfbfbf;
+}

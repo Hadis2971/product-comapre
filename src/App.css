@@ -1,0 +1,18 @@
+.App{
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+#header-text{
+    font-weight: 300;
+    font-size: 200%;
+    color: #404040;
+    margin-bottom: 3%;
+}
+
+#products-container{
+    display: flex;
+    justify-content: space-between;
+}

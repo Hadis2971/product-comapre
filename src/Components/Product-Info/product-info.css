@@ -1,0 +1,28 @@
+.product-info-box{
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    box-sizing: border-box;
+    padding: 9%;
+}
+
+.product-info-box > p{
+    
+    display: inline-block;
+    
+}
+
+.name{
+   width: 40%;
+   text-align: left;
+   font-size: 140%;
+   color: #404040;
+}
+
+.price{
+    width: 50%;
+    text-align: right;
+    color: #48cfad;
+    font-size: 130%;
+    font-weight: bold;
+}
